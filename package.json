@@ -1,0 +1,12 @@
+{
+  "name": "smart-library",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd perpus_backend && python ../manage.py runserver",
+    "frontend": "cd perpus_frontEnd && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
