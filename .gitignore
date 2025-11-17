@@ -13,6 +13,6 @@ venv/
 env/
 .env
 
-# Zip files (opsional, sepertinya tidak perlu upload zip backup)
+# updatean
 *.zip
 
